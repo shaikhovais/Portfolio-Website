@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ovais : Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Monoton&family=Open+Sans&family=Rancho&family=Rye&family=Stick+No+Bills:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./Images/Icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation-bar">
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+      <div class="menu">
+        <a href="#description" class="topic-btn"><h1>About</h1></a>
+        <a href="#skills" class="topic-btn"><h1>Skills</h1></a>
+        <a href="#projects" class="topic-btn"><h1>Projects</h1></a>
+        <a href="#contact" class="topic-btn"><h1>Contact</h1></a>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <header>
+        <img
+          src="./Images/Background Images/Background1.jpeg"
+          class="background"
+        />
+        <img
+          src="./Images/Background Images/Foreground1.png"
+          class="foreground"
+        />
+        <div class="title">
+          <h1 class="hello name">Hello</h1>
+          <h4 class="intro">
+            I am Ovais,<br />
+            Full Stack
+            <br />
+            Web Developer
+          </h4>
+        </div>
+      </header>
+      <section class="description" id="description">
+        <h1 class="heading">
+          "I am a <span class="name">full-stack web developer</span> based in
+          Mumbai. I like to craft solid and scalable web applications with a
+          smooth user experience."
+        </h1>
+      </section>
+      <section class="skills-container" id="skills">
+        <div class="section-heading">My Skills</div>
+        <h2 class="section-info">
+          Initially, I learned HTML and CSS, followed by JavaScript. I currently
+          use ReactJS on the frontend and NodeJS on the backend. On the database
+          side, I am familiar with MySQL for relational databases and MongoDB
+          for non-relational databases.
+        </h2>
+        <div class="line line-1">
+          <div class="skill-category"><h1>Basics</h1></div>
+          <div class="skill-wrapper">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">HTML</h1>
+            <img
+              class="hidden"
+              src="./Images/Icons/html.png"
+              alt="HTML Image"
+            />
+            <div class="rating hidden"></div>
+          </div>
+          <div class="skill-wrapper">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">CSS</h1>
+            <img class="hidden" src="./Images/Icons/css.png" alt="CSS Image" />
+            <div class="rating hidden"></div>
+          </div>
+        </div>
+        <div class="line line-2">
+          <div class="skill-category"><h1>FrontEnd</h1></div>
+          <div class="skill-wrapper reverse-skill">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">JavaScript</h1>
+            <img
+              class="hidden"
+              src="./Images/Icons/js.png"
+              alt="JavaScript Image"
+            />
+            <div class="rating hidden"></div>
+          </div>
+          <div class="skill-wrapper reverse-skill">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">ReactJS</h1>
+            <img
+              class="hidden"
+              src="./Images/Icons/react.png"
+              alt="ReactJS Image"
+            />
+            <div class="rating hidden"></div>
+          </div>
+        </div>
+        <div class="line line-1">
+          <div class="skill-category"><h1>BackEnd</h1></div>
+          <div class="skill-wrapper">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">NodeJS</h1>
+            <img
+              class="hidden"
+              src="./Images/Icons/nodejs.png"
+              alt="NodeJS Image"
+            />
+            <div class="rating hidden"></div>
+          </div>
+          <div class="skill-wrapper">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">ExpressJS</h1>
+            <img
+              class="hidden"
+              src="./Images/Icons/express.png"
+              alt="ExpressJS Image"
+            />
+            <div class="rating hidden"></div>
+          </div>
+        </div>
+        <div class="line line-2">
+          <div class="skill-category"><h1>DataBase</h1></div>
+          <div class="skill-wrapper reverse-skill">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">MongoDB</h1>
+            <img
+              class="hidden"
+              src="./Images/Icons/mongodb.png"
+              alt="MongoDB Image"
+            />
+            <div class="rating hidden"></div>
+          </div>
+          <div class="skill-wrapper reverse-skill">
+            <div class="hr-line"></div>
+            <h1 class="skill-name hidden">MySQL</h1>
+            <img
+              class="hidden"
+              src="./Images/Icons/mysql.png"
+              alt="MySQL Image"
+            />
+            <div class="rating hidden"></div>
+          </div>
+        </div>
+      </section>
+      <section class="project-section" id="projects">
+        <div class="section-heading">My Projects</div>
+        <h2 class="section-info">
+          There are a variety of projects that I have created. You can find some
+          of my projects listed below.
+        </h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <img
+              src="./Images/Project Images/Coming Soon.jpeg"
+              class="project-display"
+            />
+            <div class="project-name">E - Commerce Website</div>
+            <div class="project-techStack">
+              <h2>Tech Stack Used:</h2>
+              <div class="techs-wrapper"></div>
+            </div>
+            <div class="layer">
+              <div class="project-info">
+                <h3>
+                  Currently working on this website. Once it gets done, I will
+                  update this website.
+                </h3>
+                <h4>-: Features :-</h4>
+                <ul>
+                  <li>Login Authorization</li>
+                  <li>Displaying catalog</li>
+                  <li>Adding in cart functionality</li>
+                </ul>
+                <!-- <a href="" class="project-link" target="_blank" rel="noopener noreferrer">Visit Website</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="./Images/Project Images/Movieteria.png"
+              class="project-display"
+            />
+            <div class="project-name">Movieteria</div>
+            <div class="project-techStack">
+              <h2>Tech Stack Used:</h2>
+              <div class="techs-wrapper"></div>
+            </div>
+            <div class="layer">
+              <div class="project-info">
+                <h3>
+                  Created a website where users can search for any movie or tv
+                  series and they can see details like overview, cast, rating,
+                  runtime, link to trailer, etc.
+                </h3>
+                <h4>-: Features :-</h4>
+                <ul>
+                  <li>
+                    Added multiple interacting sections for user to browse for
+                    movies and shows.
+                  </li>
+                  <li>
+                    Implemented skull loading and responsiveness for better user
+                    experience.
+                  </li>
+                  <li>
+                    Implemented a modal to display more information about the
+                    movies and shows.
+                  </li>
+                </ul>
+                <a
+                  href="https://movieteria.netlify.app/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Website
+                  <div class="open-link"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="./Images/Project Images/NewsVerse.png"
+              class="project-display"
+            />
+            <div class="project-name">NewsVerse</div>
+            <div class="project-techStack">
+              <h2>Tech Stack Used:</h2>
+              <div class="techs-wrapper"></div>
+            </div>
+            <div class="layer">
+              <div class="project-info">
+                <h3>
+                  Created a responsive news website that provides users with
+                  global news and news search functionality.
+                </h3>
+                <h4>-: Features :-</h4>
+                <ul>
+                  <li>Fetching news as per different regions.</li>
+                  <li>
+                    Added search functionality with infinite scrolling for
+                    better user experience.
+                  </li>
+                  <li>
+                    Added responsiveness for users to use this website smoothly
+                    on mobile phones, computer, tablet, etc.
+                  </li>
+                </ul>
+                <a
+                  href="https://newssverse.netlify.app/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Website
+                  <div class="open-link"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="./Images/Project Images/Day and Night Themed Calculator.png"
+              class="project-display"
+            />
+            <div class="project-name">Day & Night Themed Calculator</div>
+            <div class="project-techStack">
+              <h2>Tech Stack Used:</h2>
+              <div class="techs-wrapper"></div>
+            </div>
+            <div class="layer">
+              <div class="project-info">
+                <h3>
+                  Created a vibrant-looking calculator where users can change
+                  the theme with just one click. Input/ Output screen expands
+                  when the number size is big.
+                </h3>
+                <h4>-: Features :-</h4>
+                <ul>
+                  <li>Two different themes (Day and Night).</li>
+                  <li>Added 3D effect on buttons.</li>
+                  <li>Added responsiveness.</li>
+                </ul>
+                <a
+                  href="https://2theme-calculator.netlify.app/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Website
+                  <div class="open-link"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="./Images/Project Images/Number Base Converter.png"
+              class="project-display"
+            />
+            <div class="project-name">Number Base Converter</div>
+            <div class="project-techStack">
+              <h2>Tech Stack Used:</h2>
+              <div class="techs-wrapper"></div>
+            </div>
+            <div class="layer">
+              <div class="project-info">
+                <h3>
+                  Created a number base converter(for e.g Decimal to Binary)
+                  with a clean and beautiful UI.
+                </h3>
+                <h4>-: Features :-</h4>
+                <ul>
+                  <li>Swapping of numbers.</li>
+                  <li>Displaying error.</li>
+                  <li>Added responsiveness.</li>
+                </ul>
+                <a
+                  href="https://convert-number-base.netlify.app/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Website
+                  <div class="open-link"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="./Images/Project Images/Burhani College.png"
+              class="project-display"
+            />
+            <div class="project-name">Burhani College</div>
+            <div class="project-techStack">
+              <h2>Tech Stack Used:</h2>
+              <div class="techs-wrapper"></div>
+            </div>
+            <div class="layer">
+              <div class="project-info">
+                <h3>
+                  Created the website of my college using only HTML and CSS. It
+                  includes everything that a college website needs.
+                </h3>
+                <h4>-: Features :-</h4>
+                <ul>
+                  <li>
+                    Multiple pages to display courses and infrastructure of
+                    college.
+                  </li>
+                  <li>Integrated map and a query form.</li>
+                  <li>Added responsiveness.</li>
+                </ul>
+                <a
+                  href="https://burhani-college.netlify.app/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit Website
+                  <div class="open-link"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section-heading">Contact</div>
+        <div class="contact-info">
+          <div class="social-accounts">
+            <h6>
+              I am seeking an entry-level position in a company that can utilize
+              my skills. As an adept developer, I can quickly learn various
+              technologies and start using them right away. I am looking for a
+              company where I can grow along with it.
+            </h6>
+            <h4>
+              You can reach out to me via any of the platforms listed below.
+            </h4>
+            <div class="accounts-wrapper">
+              <a
+                href="mailto: sovais333@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="social-icon">
+                  <img src="./Images/Icons/email.png" alt="gmail" />
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ovais-shaikh-701878212/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="social-icon">
+                  <img src="./Images/Icons/linkedin.png" alt="linkedin" />
+                </div>
+              </a>
+              <a
+                href="https://github.com/shaikhovais"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="social-icon">
+                  <img src="./Images/Icons/github.png" alt="github" />
+                </div>
+              </a>
+            </div>
+            <a
+              href="./Images/Resume.pdf"
+              class="project-link"
+              id="download-resume"
+              title="download resume"
+              download
+              >Download Resume
+              <div class="open-link"></div>
+            </a>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="contact-form">
+            <h4>
+              Please fill out the form below if you have any questions or would
+              like to send a message.
+            </h4>
+            <form>
+              <label>Name<sup>*</sup></label>
+              <input type="text" name="name" required />
+              <label>Email<sup>*</sup></label>
+              <input type="email" name="email" required />
+              <label>Message<sup>*</sup></label>
+              <textarea
+                name="message"
+                id=""
+                cols="30"
+                rows="3"
+                required
+              ></textarea>
+              <button type="submit">Send Query</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

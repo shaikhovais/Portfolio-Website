@@ -66,34 +66,12 @@ topicBtns.forEach((topicBtn) => {
   topicBtn.addEventListener("click", toggleMenu);
 });
 
-// let width = window.innerWidth;
-if (window.innerWidth < 900) {
-  console.log('width', window.innerWidth);
-  let projects = document.querySelectorAll(".project-card");
-  projects.forEach((project) => {
-    project.classList.remove("project-card-hover");
-    project.addEventListener("click", (e) => {
-      let layers = document.querySelectorAll('.layer');
-      layers.forEach((layer) => {
-        layer.classList.remove('layerHeight');
-      })
-      if(e.path[1].querySelector('.layer')) {
-        e.path[1].querySelector('.layer').classList.add('layerHeight')
-      }
-    });
-  });
+let projectsLink = [
+  "",
+  "https://movieteria.netlify.app/",
+  "https://newssverse.netlify.app/",
+  "https://2theme-calculator.netlify.app/",
+  "https://convert-number-base.netlify.app/",
+  "https://burhani-college.netlify.app/",
+];
 
-  let layers = document.querySelectorAll('.layer');
-  layers.forEach((layer) => {
-    layer.addEventListener("click", (e) => {
-      let paths = e.path;
-      paths.map((path, index) => {
-        if(path.classList && path.classList.contains('layer')) {
-          console.log(paths[index]);
-          paths[index].classList.remove('layerHeight');
-        }
-      })
-      e.stopPropagation();
-    })
-  })
-}

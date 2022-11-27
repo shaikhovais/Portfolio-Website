@@ -43,25 +43,57 @@ const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((element) => observer.observe(element));
 
 // Navigation Bar ---------------
-const menuBtn = document.querySelector('.menu-btn');
-const menu = document.querySelector('.menu');
+const menuBtn = document.querySelector(".menu-btn");
+const menu = document.querySelector(".menu");
 let menuOpen = false;
 
 function toggleMenu() {
-    if(!menuOpen) {
-      menuBtn.classList.add('open');
-      menu.classList.add('menu-animation');
-      menuOpen = true;
-    } else {
-      menuBtn.classList.remove('open');
-      menu.classList.remove('menu-animation');
-      menuOpen = false;
-    }
+  if (!menuOpen) {
+    menuBtn.classList.add("open");
+    menu.classList.add("menu-animation");
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove("open");
+    menu.classList.remove("menu-animation");
+    menuOpen = false;
+  }
 }
 
-menuBtn.addEventListener('click', toggleMenu);
+menuBtn.addEventListener("click", toggleMenu);
 
-let topicBtns = document.querySelectorAll('.topic-btn');
+let topicBtns = document.querySelectorAll(".topic-btn");
 topicBtns.forEach((topicBtn) => {
-  topicBtn.addEventListener('click', toggleMenu)
-})
+  topicBtn.addEventListener("click", toggleMenu);
+});
+
+// let width = window.innerWidth;
+if (window.innerWidth < 900) {
+  console.log('width', window.innerWidth);
+  let projects = document.querySelectorAll(".project-card");
+  projects.forEach((project) => {
+    project.classList.remove("project-card-hover");
+    project.addEventListener("click", (e) => {
+      let layers = document.querySelectorAll('.layer');
+      layers.forEach((layer) => {
+        layer.classList.remove('layerHeight');
+      })
+      if(e.path[1].querySelector('.layer')) {
+        e.path[1].querySelector('.layer').classList.add('layerHeight')
+      }
+    });
+  });
+
+  let layers = document.querySelectorAll('.layer');
+  layers.forEach((layer) => {
+    layer.addEventListener("click", (e) => {
+      let paths = e.path;
+      paths.map((path, index) => {
+        if(path.classList && path.classList.contains('layer')) {
+          console.log(paths[index]);
+          paths[index].classList.remove('layerHeight');
+        }
+      })
+      e.stopPropagation();
+    })
+  })
+}

@@ -66,3 +66,11 @@ let topicBtns = document.querySelectorAll(".topic-btn");
 topicBtns.forEach((topicBtn) => {
   topicBtn.addEventListener("click", toggleMenu);
 });
+
+
+// Clearing form after submission -----------
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}

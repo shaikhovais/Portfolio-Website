@@ -1,5 +1,5 @@
 // Displaying stars in rating -------------
-let skillsRating = [9, 8, 8, 8, 7, 7, 8, 0];
+let skillsRating = [9, 8, 8, 8, 7, 7, 8, 6];
 for (let index = 0; index < 8; index++) {
   let list = document.querySelectorAll(`.rating`)[index];
   let rating = skillsRating[index];
@@ -29,6 +29,7 @@ for (let index = 0; index < 6; index++) {
   }
 }
 
+// Animation in skills section ---------
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -65,13 +66,3 @@ let topicBtns = document.querySelectorAll(".topic-btn");
 topicBtns.forEach((topicBtn) => {
   topicBtn.addEventListener("click", toggleMenu);
 });
-
-let projectsLink = [
-  "",
-  "https://movieteria.netlify.app/",
-  "https://newssverse.netlify.app/",
-  "https://2theme-calculator.netlify.app/",
-  "https://convert-number-base.netlify.app/",
-  "https://burhani-college.netlify.app/",
-];
-

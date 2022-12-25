@@ -1,6 +1,6 @@
 # Portfolio-Website
 
-A portfolio website where I am displaying my skills and projects.
+Created a portfolio website where I can display my personal projects and skills I have to offer.
 
 Hosted Link: https://shaikhovais.netlify.app/
 

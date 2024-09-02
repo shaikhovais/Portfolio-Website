@@ -12,10 +12,11 @@ body {
   right: 5%;
   width: fit-content;
   z-index: 10000;
-  background-color: #3d8361;
+  background-color: #196842;
   border-radius: 50px;
   opacity: 0.7;
   transition: all 0.2s;
+  box-shadow: #3d8361 0px 5px 15px;
 }
 
 .navigation-bar:hover {
@@ -198,7 +199,7 @@ header {
 
 .name {
   animation: background-pan 3s linear infinite;
-  background: linear-gradient(to right, #0f9b0f, #f79d00, #0f9b0f);
+  background: linear-gradient(to right, #882fd5, #f79d00, #882fd5);
   background-size: 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -218,8 +219,9 @@ section {
 .heading {
   color: #1c6758;
   width: 70%;
-  font-size: 3rem;
-  font-family: "Italianno", cursive;
+  font-size: 2rem;
+  font-family: "Indie Flower", cursive;
+  font-style: normal;
 }
 
 .hidden {
@@ -245,6 +247,13 @@ section {
   font-size: 80px;
   font-family: "Rancho", cursive;
   color: brown;
+  margin: 20px 0px;
+}
+
+.section-subheading {
+  font-size: 50px;
+  color: goldenrod;
+  margin: 10px;
 }
 
 .section-info {
@@ -255,7 +264,7 @@ section {
 
 .line {
   border-bottom: 6px solid #0f3931;
-  height: 400px;
+  height: 200px;
   width: 70%;
   left: 200px;
   display: grid;
@@ -293,13 +302,14 @@ section {
 
 .skill-wrapper {
   z-index: 2;
-  min-height: 200px;
+  min-height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
+  color: coral;
 }
 
 .hr-line {
@@ -309,7 +319,9 @@ section {
 }
 
 .skill-name {
-  font-size: 50px;
+  font-size: 35px;
+  margin: 0px;
+  color: slateblue;
 }
 
 .skill-wrapper img {
@@ -327,6 +339,51 @@ section {
 
 .reverse-skill {
   flex-direction: row-reverse;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0px 60px;
+}
+
+.work-container h1 {
+  margin: 5px;
+}
+
+.work-subcontainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  color: rgb(80, 69, 157);
+}
+
+.work-subcontainer h3 {
+  font-size: 25px;
+}
+
+.work-wrapper {
+  background-color: #9ddbbc;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: #3d8361 0px 5px 15px;
+}
+
+.company-name {
+  font-size: 30px;
+  color: rgb(188, 74, 32);
+}
+
+.company-location {
+  font-size: 25px;
+}
+
+.work-wrapper li{
+  margin: 10px;
+  font-size: 20px;
+  color: #0f3931;;
 }
 
 .project-section {
@@ -347,6 +404,7 @@ section {
   padding: 20px 20px 10px;
   border-radius: 10px;
   position: relative;
+  box-shadow: #3d8361 0px 5px 15px;
 }
 
 .project-display {
@@ -434,7 +492,7 @@ section {
 }
 
 .project-info {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -443,7 +501,7 @@ section {
 }
 
 .project-info h3 {
-  margin: 25px;
+  margin: 20px;
 }
 
 .project-info h4 {
@@ -558,21 +616,45 @@ section {
   background-color: #b9f8d3;
 }
 
+.form-btns { 
+  display: flex;
+  justify-content: space-around;
+}
+
 .contact-form button {
+  width: 30%;
   height: 50px;
   border-radius: 5px;
   border: none;
   font-size: 20px;
   transition: all 0.3s;
   cursor: pointer;
+}
+
+.contact-form .submit-btn {
   background-color: #fae6cd;
   color: #fd9f24;
   border: 1px solid #fd9f24;
+  box-shadow: #fd9f24 0px 5px 10px;
+
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #fd9f24;
+  color: white;
+}
+
+.contact-form .clear-btn {
+  background-color: #f8bfbf;
+  color: #fa4343;
+  border: 1px solid #fa4343;
+  box-shadow: #fa4343 0px 5px 10px;
+
 }
 
 .contact-form button:hover {
-  background-color: #fd9f24;
-  color: white;
+  background-color: #fa4343;
+  color: #f8bfbf;
 }
 
 .vertical-line {
@@ -630,7 +712,7 @@ section {
   margin: auto;
   width: fit-content;
   margin-top: 40px;
-  background-color: rgb(183, 108, 108);
+  background-color: #b76c6c;
   padding: 10px 20px;
   border-radius: 30px;
 }
@@ -680,10 +762,10 @@ section {
 
 @media (max-width: 900px) {
   .background {
-    content: url(./Images/Background\ Images/Background2.jpeg);
+    content: url(./Images/Background\ Images/Background3.jpg);
   }
   .foreground {
-    content: url(./Images/Background\ Images/Foreground2.png);
+    content: url(./Images/Background\ Images/Foreground3.png);
   }
   .title {
     position: fixed;
@@ -804,6 +886,11 @@ section {
     font-size: 60px;
   }
 
+  .section-subheading {
+    font-family: 35px;
+    margin: 5px;
+  }
+
   .section-info {
     font-size: 15px;
   }
@@ -898,6 +985,32 @@ section {
     font-size: 15px;
   }
   
+}
+
+@media (max-width: 600px) {
+  .hr-line {
+    display: none;
+  }
+
+  .skill-wrapper h1 {
+    margin: 0px 10px;
+    font-size: 15px;
+  }
+
+  .skill-name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .work-subcontainer {
+    flex-direction: column;
+  }
+
+  .contact-form button{
+    width: 40%;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 350px) {

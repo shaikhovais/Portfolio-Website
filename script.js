@@ -81,29 +81,41 @@ const personalProjects = [
     "https://movieteria.netlify.app/"
   ),
   new personalProjectDetails(
+    "ShopTrek",
+    ["Angular", "Tailwind CSS"],
+    "A fully functional e-commerce platform built with Angular and Tailwind CSS, fetching product data from the FakeStore API. ",
+    [
+      "Product browsing and filtering for easy navigation.",
+      "Shopping cart with session-based cart persistence.",
+      "Responsive design for seamless user experience."
+    ],
+    "./Images/Project Images/ShopTrek.png",
+    "https://shoptrek.netlify.app/"
+  ),
+  new personalProjectDetails(
     "Burhani College",
     ["HTML", "CSS"],
     "Created the website of my college using only HTML and CSS. It includes everything that a college website needs.",
     [
       "Multiple pages to display courses and infrastructure of college.",
       "Integrated map and a query form.",
-      "Added responsiveness."
+      "Responsive design for seamless user experience."
     ],
     "./Images/Project Images/Burhani College.png",
     "https://burhani-college.netlify.app/"
   ),
-  new personalProjectDetails(
-    "Day & Night Themed Calculator",
-    ["HTML", "CSS", "JavaScript"],
-    "Created a vibrant-looking calculator where users can change the theme with just one click.",
-    [
-      "Two different themes (Day and Night).",
-      "Added 3D effect on buttons.",
-      "Added responsiveness."
-    ],
-    "./Images/Project Images/Day and Night Themed Calculator.png",
-    "https://2theme-calculator.netlify.app/"
-  ),
+  // new personalProjectDetails(
+  //   "Day & Night Themed Calculator",
+  //   ["HTML", "CSS", "JavaScript"],
+  //   "Created a vibrant-looking calculator where users can change the theme with just one click.",
+  //   [
+  //     "Two different themes (Day and Night).",
+  //     "Added 3D effect on buttons.",
+  //     "Added responsiveness."
+  //   ],
+  //   "./Images/Project Images/Day and Night Themed Calculator.png",
+  //   "https://2theme-calculator.netlify.app/"
+  // ),
 ];
 
 function createProjectCard(project) {

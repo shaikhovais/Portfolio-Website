@@ -4,12 +4,12 @@ import { personalProjectDetails } from "./Classes/PersonalProjectDetails.js"
 //Showing skills dynamically
 const skillSetList = {
   professionalExperienceSkills: [
-    "JavaScript",
+    "TypeScript",
     "Angular",
     "Oracle SQL",
     "Microsoft SQL",
   ],
-  proficientSkills: ["React", "HTML", "CSS"],
+  proficientSkills: ["JavaScript","React", "HTML", "CSS"],
   basicSkills: ["JAVA", "NodeJS", "ExpressJS", "MongoDB"],
   softSkills1: [
     "Clearly conveying ideas and information in both verbal and non-verbal forms.",
@@ -47,9 +47,9 @@ const workExperienceList = [
     "Present",
     [
       "Contributed to the frontend and database development of the Locker Management System for Kotak Mahindra Bank, optimizing locker processes across 1,200+ branches in India.",
-      "Worked on the project for Yes Bank, streamlining digital onboarding for insurance distributors.",
-      "Worked on the project for HDFC Bank that generates unique codes to track and monitor the performance of insurance sales employees.",
-      "Worked on the project for ESAF Bank, enabling Insurance Distributors to efficiently enroll customers for insurance products."
+      "Developed a system for HDFC Bank that generates unique codes to track and monitor the performance of over 150,000 insurance sales agents, leading to improved performance management and reporting accuracy.",
+      "Streamlined the digital onboarding process for Yes Bank, automating the entire process in compliance with IRDA guidelines, reducing manual intervention, and ensuring seamless onboarding for insurance distributors.",
+      "Built an insurance enrollment system for ESAF Bank, allowing the banks to enroll customers and automatically redirect the data to four insurance partners upon submission, streamlining the application process."
     ]
   ),
 ];

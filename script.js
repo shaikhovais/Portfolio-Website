@@ -9,7 +9,7 @@ const skillSetList = {
     "TypeScript"
   ],
   backendSkills: ["Node.js","Express.js", "JavaScript"],
-  databaseSkills: ["Oracle SQL", "Microsoft SQL Server", "MongoDB"],
+  databaseSkills: ["SQL","Oracle SQL","MongoDB"],
   softSkills1: [
     "Clearly conveying ideas and information in both verbal and non-verbal forms.",
   ],

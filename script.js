@@ -3,14 +3,13 @@ import { personalProjectDetails } from "./Classes/PersonalProjectDetails.js"
 
 //Showing skills dynamically
 const skillSetList = {
-  professionalExperienceSkills: [
-    "TypeScript",
+  frontendSkills: [
     "Angular",
-    "Oracle SQL",
-    "Microsoft SQL",
+    "React",
+    "TypeScript"
   ],
-  proficientSkills: ["JavaScript","React", "HTML", "CSS"],
-  basicSkills: ["JAVA", "NodeJS", "ExpressJS", "MongoDB"],
+  backendSkills: ["Node.js","Express.js", "JavaScript"],
+  databaseSkills: ["Oracle SQL", "Microsoft SQL Server", "MongoDB"],
   softSkills1: [
     "Clearly conveying ideas and information in both verbal and non-verbal forms.",
   ],

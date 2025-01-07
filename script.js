@@ -43,12 +43,12 @@ const workExperienceList = [
     "Mumbai",
     "Software Developer",
     "January 2023",
-    "Present",
+    "November 2024",
     [
-      "Contributed to the frontend and database development of the Locker Management System for Kotak Mahindra Bank, optimizing locker processes across 1,200+ branches in India.",
-      "Developed a system for HDFC Bank that generates unique codes to track and monitor the performance of over 150,000 insurance sales agents, leading to improved performance management and reporting accuracy.",
-      "Streamlined the digital onboarding process for Yes Bank, automating the entire process in compliance with IRDA guidelines, reducing manual intervention, and ensuring seamless onboarding for insurance distributors.",
-      "Built an insurance enrollment system for ESAF Bank, allowing the banks to enroll customers and automatically redirect the data to four insurance partners upon submission, streamlining the application process."
+      "Developed and deployed a Locker Management System for Kotak Mahindra Bank using Angular for the frontend and Oracle SQL for the database, significantly reducing locker allocation time across 1,800+ branches nationwide.",
+      "Automated the digital onboarding process of insurance distributors for Yes Bank using React for the frontend and Node.js for the backend, reducing processing time by 70% while ensuring 100% IRDA compliance.",
+      "Developed an agent tracking system for HDFC Bank using SQL Server for database management, enabling monitoring of over 150,000 insurance sales agents and improving reporting accuracy.",
+      "Built an insurance enrollment system for ESAF Bank using SQL Server for the database, enabling customer enrollment and automatic data redirection to four insurance partners, streamlining the application process."
     ]
   ),
 ];

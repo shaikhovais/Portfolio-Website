@@ -8,7 +8,7 @@ const skillSetList = {
     "React",
     "TypeScript"
   ],
-  backendSkills: ["JaVA", "Python", "Node.js"],
+  backendSkills: ["Java", "Python", "Node.js"],
   databaseSkills: ["SQL","Oracle SQL","MongoDB"],
   softSkills1: [
     "Clearly and effectively conveying ideas and information.",

@@ -8,10 +8,10 @@ const skillSetList = {
     "React",
     "TypeScript"
   ],
-  backendSkills: ["Node.js","Express.js", "JavaScript"],
+  backendSkills: ["JaVA", "Python", "Node.js"],
   databaseSkills: ["SQL","Oracle SQL","MongoDB"],
   softSkills1: [
-    "Clearly conveying ideas and information in both verbal and non-verbal forms.",
+    "Clearly and effectively conveying ideas and information.",
   ],
   softSkills2: [
     "Working effectively with different departments or teams to achieve common goals.",
